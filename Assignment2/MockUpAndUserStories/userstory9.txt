@@ -1,0 +1,1 @@
+As a student user, the student must be able to see all the assignments on the assignment page, when clicking on the assignment button on the left sidebar.

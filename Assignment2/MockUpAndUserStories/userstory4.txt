@@ -1,0 +1,1 @@
+As a student user, the student must be able to get the instructor’s email, when clicking on the email link.

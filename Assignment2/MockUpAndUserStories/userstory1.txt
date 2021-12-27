@@ -1,0 +1,1 @@
+As a student user, the student must be able to see the course information on the homepage, when clicking the home link on the left sidebar.

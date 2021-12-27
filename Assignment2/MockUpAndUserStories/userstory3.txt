@@ -1,0 +1,1 @@
+As a student user, the student must be able to see all lecture slides on the lecture page when clicking the lecture link on the left sidebar.

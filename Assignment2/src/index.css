@@ -1,0 +1,485 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+h1 { /*A sytle for h1 of index.html*/
+    color: #330033;
+    font-family: "Times New Roman",Georgia,Serif;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+#description h2 { /*A sytle for h2 of index.html*/
+    color: #008000;
+    font-size: large;
+    border-bottom: groove 5px #018613;
+}
+
+
+#instructor h2 { /*A sytle for h2 of index.html and team.html*/
+    color: #029027;
+    font-size: large;
+    border-bottom: groove 4px #039632;
+}
+
+
+#lecture h2 { /*A sytle for h2 of index.html*/
+    color: #05a042;
+    font-size: large;
+    border-bottom: groove 3px #05a042;
+}
+
+
+#OH h2 { /*A sytle for h2 of index.html*/
+    color: #06a64c;
+    font-size: large;
+    border-bottom: groove 2px #08ad56;
+}
+
+#subtitle h2 {/*A sytle for h2 of assignment.html and lecture.html*/
+    color: green;
+    font-size: large;
+    border-bottom: groove 3px green;
+}
+
+#lablinks h2 { /*A sytle for h2 of lab.html*/
+    color: green;
+    font-size: large;
+    border-bottom: dashed 3px blue;
+}
+
+#useful h2 { /*A sytle for h2 of link.html*/
+    color: black;
+    font-size: x-large;
+    border-bottom: groove 5px blue;
+}
+
+#TA h2 { /*A sytle for h2 of team.html*/
+    color: darkgreen;
+    font-size: medium;
+    border-bottom: groove 3px rgb(0, 148, 255);
+}
+
+#testinfo h2 { /*A sytle for h2 of test.html*/
+    color: green;
+    font-size: x-large;
+    padding-top: 5px;
+    border-bottom: dotted 5px #000000;
+}
+
+#test { /*A sytle for h2 of test.html*/
+    color: darkolivegreen;
+    font-size: xx-large;
+    border-bottom: double 10px green;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+h3 { /*A sytle for h3 in sidebar*/
+    color: #FFFFFF;
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+}
+
+h4 { /*A sytle for h3 in sidebar*/
+    color: #FFFFFF;
+    font-family: "Times New Roman",Georgia,Serif;
+    font-size: 200%;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    text-align: center;
+}
+
+#current a:link { /*A sytle for a in sidebar*/
+    color: green;
+}
+
+#current a:visited { /*A sytle for visited a in sidebar*/
+    color: green;
+}
+
+.welcome { /*A sytle for h1 of index.html*/
+    color: black;
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 250%;
+    font-style: normal;
+    border-bottom: groove 20px;
+}
+
+.heading { /*A sytle for header of every page*/
+    color: #FFFFFF;
+    background-color: #4a946b;
+    position: fixed;
+    height: 60px;
+    top: 0px;
+    right: 0;
+    left: 21%;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    font-variant: normal;
+    text-align: center;
+    font-size: 140%;
+    font-weight: normal;
+    font-style: oblique;
+    z-index: 20;
+}
+
+.sidebar { /*A sytle for sidebar of every page*/
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    width: 20%;
+    color: #FFFFFF;
+    background-color: #58af7f;
+    height: 100%;
+    font-style: normal;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+a:link { /*A sytle for a in sidebar of every page*/
+    text-transform: uppercase;
+    color: #FFFFFF;
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+a:visited { /*A sytle for a in sidebar of every page*/
+    color: #FFFFFF;
+}
+
+a:hover { /*A sytle for a in sidebar of every page*/
+    font-family: inherit;
+    color: gray;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+a:active { /*A sytle for a in sidebar of every page*/
+    font-family: inherit;
+    color: green;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.intextlink:link { /*A sytle for a that is intext of every page*/
+    text-transform: none;
+    color: blue;
+    background-color: inherit;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.intextlink:visited { /*A sytle for a that is intext of every page*/
+    color: navy;
+    word-wrap: break-word;
+}
+
+.intextlink:hover { /*A sytle for a that is intext of every page*/
+    font-family: inherit;
+    color: red;
+    font-weight: normal;
+    text-decoration: underline;
+    word-wrap: break-word;
+}
+
+#container { /*A sytle for container div of every page*/
+    padding-top: 80px;
+    position: absolute;
+    min-height: 100%;
+    right: 0;
+    left: 21%;
+    padding-bottom: 50px;
+}
+
+.main { /*A sytle for main div of every page*/
+    padding-top: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: medium;
+    font-style: oblique;
+    font-weight: normal;
+    color: #000000;
+    right: 100%;
+}
+
+    .main p { /*A sytle for p in main div of every page*/
+        padding: 20px;
+        font-size: medium;
+        background: rgba(178, 230, 173, 0.637);
+    }
+
+
+iframe { /*A sytle for iframe of calendar.html*/
+    padding-top: 70px;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 95%;
+    height: 500px;
+    border: hidden;
+    overflow: hidden;
+}
+
+button { /*A sytle for button of calendar.html*/
+    position: relative;
+    top: 15px;
+    left: 30px;
+    width: 80px;
+    height: 40px;
+    background: rgb(182, 255, 0);
+    background-size: 100%;
+    font-family: fantasy;
+    font-size: 15px;
+}
+
+
+footer { /*A sytle for footer of every page*/
+    color: #FFFFFF;
+    background: #4a946b;
+    right: 0;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    text-align: center;
+    font-size: 5px;
+}
+
+    footer a:link { /*A sytle for a in footer of every page*/
+        text-transform: capitalize;
+        color: #FFFFFF;
+        background-color: inherit;
+        text-decoration: none;
+        font-size: 5px;
+    }
+
+    footer a:visited { /*A sytle for a in footer of every page*/
+        color: #FFFFFF;
+    }
+
+    footer a:hover { /*A sytle for a in footer of every page*/
+        font-family: inherit;
+        color: #FFFFFF;
+        font-weight: normal;
+        text-decoration: underline;
+    }
+
+
+
+#description p { /*A sytle for p of index.html*/
+    background: #51d67f;
+    border-radius: 20px;
+    font-size: large;
+}
+
+#instructor p { /*A sytle for p of index.html and team.html*/
+    font-family: "Times New Roman",Georgia,Serif;
+    font-size: large;
+    background: #3ebd6c;
+    border-radius: 10px;
+}
+
+#lecture p { /*A sytle for p of index.html*/
+    background: #2faa5e;
+    border-radius: 6px;
+    font-size: large;
+}
+
+#OH p { /*A sytle for p of index.html*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #1f9851;
+    border-radius: 4px;
+    font-size: large;
+}
+
+#testinfo p { /*A sytle for p of test.html*/
+    padding: 20px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    background: rgba(178, 230, 200, 0.637);
+    border-radius: 30px;
+}
+
+#useful p { /*A sytle for p of link.html*/
+    padding: 20px;
+    font-size: medium;
+    background: rgba(178, 230, 173, 0.637);
+    border-radius: 20px;
+}
+
+#TA p { /*A sytle for p of team.html*/
+    font-family: "Times New Roman",Georgia,Serif;
+    font-size: large;
+    background: rgba(178, 225, 200, 0.637);
+    border-radius: 7px;
+}
+
+#lablinks p { /*A sytle for p of lab.html*/
+    font-size: medium;
+    background: rgba(178, 230, 173, 0.637);
+    border-radius: 5px;
+}
+
+
+
+
+
+.wrapperLab {/*grid for lab.html*/
+    display: grid;
+    grid-template-columns: 40% 27% 27%;
+    grid-gap: 5px;
+    padding-bottom: 15px;
+}
+
+    .wrapperLab div {
+        background: rgba(178, 230, 200, 0.637);
+        padding: 5px;
+    }
+
+
+    .wrapperLab a:link {
+        color: blue;
+        font-size: medium;
+        background: rgba(178, 230, 200, 0.637);
+        padding: 5px;
+        text-transform: capitalize;
+    }
+
+    .wrapperLab a:visited {
+        color: blue;
+        font-size: medium;
+        background: rgba(178, 230, 200, 0.637);
+        padding: 5px;
+        text-transform: capitalize;
+    }
+
+    .wrapperLab a:hover {
+        color: red;
+        font-size: medium;
+        background: lightgreen;
+        padding: 5px;
+        text-transform: capitalize;
+    }
+
+
+.wrapperTest {/*grid for test.html*/
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-gap: 5px;
+    grid-auto-rows: 75px;
+    padding: 10px;
+}
+
+    .wrapperTest div {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        color: #000000;
+        text-align: center;
+        background: rgba(178, 230, 173, 0.637);
+        padding: 5px;
+        border-radius: 15px
+    }
+
+
+    .wrapperTest a:link {
+        color: blue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        background: rgba(178, 230, 173, 0.637);
+        padding: 5px;
+        border-radius: 15px;
+        padding: 5px;
+        text-transform: capitalize;
+    }
+
+    .wrapperTest a:visited {
+        color: blue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        background: rgba(178, 230, 173, 0.637);
+        padding: 5px;
+        border-radius: 15px;
+        padding: 5px;
+        text-transform: capitalize;
+    }
+
+    .wrapperTest a:hover {
+        color: darkgreen;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        background: lightgreen;
+        padding: 5px;
+        border-radius: 15px;
+        padding: 5px;
+        text-transform: capitalize;
+    }
+
+
+#grids {/*grid for assigment.html and lecture.html*/
+    padding-left: 5px;
+    padding-right: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 1em;
+}
+
+    #grids > div {
+        background-color: rgba(178, 230, 173, 0.637);
+        font-family: Verdana;
+        font-size: large;
+        text-align: center;
+    }
+
+    #grids a {
+        color: black;
+    }
+
+        #grids a:visited {
+            color: rgb(120, 160, 41);
+        }
+
+        #grids a:hover {
+            font-family: inherit;
+            color: rgba(0, 0, 255, 0.418);
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+
+#subtitle {/*Style for assigment.html and lecture.html*/ 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+    #subtitle a {
+        color: black;
+    }
+
+        #subtitle a:visited {
+            color: rgb(120, 160, 41);
+        }
